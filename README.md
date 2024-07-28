@@ -16,12 +16,19 @@ _Usage:_ analyze_spi_data(X)
 #### CDPCA.m
 
 _Description:_ Performs clustering on both the rows (objects) and columns (variables) of the data matrix 𝑋, optimizing the explained variance of the data while ensuring the memberships matrices 𝑈 and 𝑉 are binary and row stochastic.
+<br>
 Vcdpca : Membership matrix for clustering variables
+<br>
 Ucdpca : Membership matrix for clustering objects
+<br>
 Acdpca : Loadings matrix (Principal Components)
+<br>
 Ycdpca : Projected data matrix
+<br>
 fcdpca : Final value of the objective function (explained variance)
+<br>
 incdpca : Number of iterations until convergence
+<br>
 <br>
 _Usage:_ [Vcdpca,Ucdpca,Acdpca, Ycdpca,fcdpca,incdpca]=CDPCA(X, K, Q, Rndstart)
 
@@ -113,6 +120,7 @@ _Method:_ Use the kmeans function to perform clustering.
 _Objective:_ Identify the optimal number of clusters using both the elbow method and pseudo F-statistics.
 <br>
 _Methods:_
+<br>
 ___Elbow Method:___ Use elbow_method.m to find the elbow point.
 <br>
 ___Pseudo F-statistics:___ Use psF.m to compute the pseudo F-statistics, selecting the K with the highest pF.
@@ -143,19 +151,20 @@ _Method:_ Use the save function to save results and disp to display the summary.
 
 ## Instructions for Use
 
-Prerequisites
-MATLAB R2022a or later
-Statistics and Machine Learning Toolbox
+### Prerequisites
+_MATLAB R2022a or later_
+<br>
+_Statistics and Machine Learning Toolbox_
 
-
-
-Visualizing Results
+### Visualizing Results
 Visualize the results using the provided plots elbow_plot.png and explained_variances.png.
-Saving Results
-Save the analysis results using save function in MATLAB.
-save('spi_analysis_2022.mat', 'results', 'summary');
+
+### Saving Results
+Save the analysis results using save function in MATLAB:
+<br>
+___save('spi_analysis_2022.mat', 'results', 'summary');___
 
 
-Contact
+## Contact
 
-For any questions or issues, please contact [Your Name] at [Your Email].
+For any questions or issues, please contact Nihad Aslanzade at nihadaslanzade02@icloud.com .
