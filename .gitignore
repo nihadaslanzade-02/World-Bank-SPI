@@ -1,0 +1,22 @@
+# MATLAB
+*.mlx
+*.mlapp
+*.mat
+*.fig
+*.mex*
+*.log
+*.out
+*.class
+*.jks
+
+# MATLAB code generation
+/codegen
+/slprj
+
+# MATLAB editor temp files
+*~
+*.asv
+.DS_Store
+._* 
+.Spotlight-V100 
+.Trashes
