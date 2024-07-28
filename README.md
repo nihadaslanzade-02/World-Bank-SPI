@@ -116,9 +116,10 @@ _Method:_ Use DKM.m for double K-means clustering.
 _Objective:_ Compare the explained variances of different methods for different K values.
 _Method:_ Use confusion matrices to evaluate the clustering performance across methods and K values.
 ### 14. Save and Display Analysis Results
-Description: Save the analysis results to a .mat file and display a summary of the key findings.
-Method: Use the save function to save results and disp to display the summary.
-Instructions for Use
+_Description:_ Save the analysis results to a .mat file and display a summary of the key findings.
+_Method:_ Use the save function to save results and disp to display the summary.
+
+## Instructions for Use
 
 Prerequisites
 MATLAB R2022a or later
