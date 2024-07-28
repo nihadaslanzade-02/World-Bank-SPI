@@ -10,7 +10,7 @@ This repository contains MATLAB scripts and data files used for analyzing the St
 #### analyze_spi_data.m
 
 _Description:_ This script performs a detailed analysis of SPI data using different clustering techniques and selects the best performing K value based on explained variance.
-
+<br>
 _Usage:_ analyze_spi_data(X)
 
 #### CDPCA.m
