@@ -20,3 +20,4 @@
 ._* 
 .Spotlight-V100 
 .Trashes
+!data/SPI_analysis.mat
